@@ -34,7 +34,7 @@ var Footer = React.createClass({
               </li>
             </ul>
           </div>
-          <div className="footer-info">
+          {/* <div className="footer-info">
             <div className="footer-logo">
               <a href="https://foundation.mozilla.org"><img src="/assets/images/mozilla.1068965acefde994a71c187d253aca2b.svg"/></a>
             </div>
@@ -46,7 +46,7 @@ var Footer = React.createClass({
                 {this.props.children}
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </footer>
     );

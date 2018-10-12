@@ -82,8 +82,8 @@
     transition: background 200ms ease-in-out;
 
     &.simple-background {
-      background: white;
-      border-bottom: 1px solid #ccc;
+      background: black;
+      border-bottom: 1px solid black;
     }
 
     .wide-screen-menu {
@@ -189,16 +189,17 @@
     }
 
     .logo {
-      width: 28px;
-      height: 28px;
-      background: url(/assets/images/mozilla-m.svg) no-repeat;
+      height: 75px;
+      width: 300px;
+      background: url(/assets/images/logo.png) no-repeat;
       background-size: contain;
       position: relative;
       z-index: 1;
 
       @media (min-width: 576px) {
-        width: 97px;
-        background: url(/assets/images/mozilla-on-black.svg) no-repeat;
+        height: 75px;
+        width: 500px;
+        background: url(/assets/images/logo.png) no-repeat;
       }
 
       margin: 0 26px 0 0;
