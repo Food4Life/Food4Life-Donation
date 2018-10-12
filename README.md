@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/mozilla/donate.mozilla.org.svg?branch=master)](https://travis-ci.org/mozilla/donate.mozilla.org)
 
-# donate.mozilla.org
+# Food4Life Donation Box (forked from Mozilla)
 Mozilla donation forms:
 
 * Staging: https://donate.mofostaging.net/
